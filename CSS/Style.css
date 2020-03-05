@@ -251,8 +251,9 @@ footer p{
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-top: 3.5em;
-    margin-bottom: 3.5em;
+    margin: 6em auto;
+    padding: 2em;
+    box-shadow: 1px 1px 5px #7278C3, -1px -1px 5px #FC1E8B;
 }
 .campo{
     width: 100%;
@@ -264,7 +265,6 @@ footer p{
     text-transform: uppercase;
 }
 .sexo{
-    margin: 1em 0;
     border: none;
     width: 100%;
 }
@@ -286,4 +286,21 @@ input[type="text"], input[type="email"], input[type="password"], select, input[t
 input:focus, select:focus{
     outline: none;
     background-color: #2b282e;
+}
+.camp{
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+fieldset{
+    width: 100%;
+    border: none;
+}
+input[type="radio"]{
+    margin-right: 0.1em;
+}
+fieldset label{
+    margin-right: 0.5em;
 }
