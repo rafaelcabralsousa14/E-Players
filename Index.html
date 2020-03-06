@@ -11,10 +11,15 @@
 <body>
     <header>
         <div class="container top">
-            <a href="Index.html">
-                <img src="Imagens/Imagens/Logo.svg" alt="Logo do site E-players">
-            </a>
-            <nav>
+            <div>
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="Index.html">
+                    <img src="Imagens/Imagens/Logo.svg" alt="Logo do site E-players">
+                </a>
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="Index.html" title="voltar para a página inicial">INÍCIO</a></li>
                     <li title="Ir até a sessão de horários das partidas"><a href="#horarios">HORÁRIOS</a></li>
@@ -261,5 +266,16 @@
                 <p>Todos os direitos reservados - SENAI SP </p>
             </div>
     </footer>
+    <script>
+function botaoMenu(){
+    var m = document.getElementById("menu")
+        if(m.style.display == "block"){
+            m.style.display = "none";
+        } 
+        else{
+            m.style.display = "block"
+        }
+}       
+    </script>
 </body>
 </html>

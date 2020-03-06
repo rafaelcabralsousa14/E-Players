@@ -304,6 +304,12 @@ input[type="radio"]{
 fieldset label{
     margin-right: 0.5em;
 }
+.top .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+    display: none;
+
+}
 @media screen and (max-width: 1200px) {
     .campea{
         right: 0%;
@@ -366,6 +372,37 @@ fieldset label{
     }
     .mob_logo_sociais{
         max-width: 180px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .top .fa-bars{
+        display: block; 
+    }    
+    #menu{
+        position: absolute;
+        top: 75px;
+        width: 100%;
+        background-color: var(--background);
+        display: none;
+        
+    }
+    .top div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 0 2em;
+    }
+    .top ul{
+        flex-direction: column;
+        height: 250px;
+    }
+    .top ul a{
+        padding-left: 0.5em 80% 0.5em 1em;
+        margin: 5em;
+    }
+    .campea{
+        display: none;
     }
 
 }
