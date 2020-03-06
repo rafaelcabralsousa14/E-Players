@@ -384,7 +384,7 @@ fieldset label{
         width: 100%;
         background-color: var(--background);
         display: none;
-        
+
     }
     .top div{
         display: flex;
@@ -404,5 +404,45 @@ fieldset label{
     .campea{
         display: none;
     }
-
+    .sobre .container div{
+        width: 90%;
+    }
+    .sobre .container h1{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    #horarios .container{
+        flex-direction: column;
+    }
+    .ao_vivo, .em_breve{
+        padding: 1em;
+        border: none;
+    }
+    .partida{
+        margin: 1em 0;
+    }
+    .em_breve h2{
+        text-align: center;
+        width: 100%;
+    }
+    .card{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card img{
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .news{
+        padding-right: 15px;
+        width: 95%;
+    }
+    .recente{
+        padding: 0.5em;
+    }
+    .content{
+        flex-direction: column;
+    }
+    
 }
