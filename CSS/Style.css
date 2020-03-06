@@ -210,7 +210,7 @@ footer .social_media{
 footer .container{
     display: flex;
     justify-content: space-between;
-    padding: 2em
+    padding: 2em 0;
 }
 footer h5{
     padding-bottom: 1.2em;
@@ -323,12 +323,49 @@ fieldset label{
         width: 98%;
     }
     .campea{
-        right: -100px;
-        margin-top: 50px;
-        max-width: 500px;
+        right: 0px;
+        margin-top: 60px;
+        max-width: 400px;
     }
     .sobre .container div{
         width: 55%;
         margin-left: 30px;
     }
+    .ao_vivo{
+        padding: 5.3px 5px;
+        width: 50%;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .em_breve{
+        width: 50%;
+        flex-flow: wrap;
+
+    }
+    .em_breve, .partida{
+        margin: 0.5em 0;
+    }
+    .news{
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        width: 100%;
+    }
+    .card img{
+        width: 30%;
+    }
+    footer .container{
+        padding-top: 0.3em;
+        width: 94%;
+    }
+    .mob_logo_sociais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mob_logo_sociais{
+        max-width: 180px;
+    }
+
 }
